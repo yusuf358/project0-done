@@ -1,0 +1,24 @@
+p{
+  color: purple;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+#bios{
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.name{
+  font-style: italic;
+  font-family: cursive;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: darkorange;
+}
+@media query {
+
+}
+body{
+  background: #b2d1d0;
+}
