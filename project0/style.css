@@ -1,3 +1,9 @@
+<link href="C:\Users\yusuf\OneDrive\Desktop\project0\project0\project0\style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+.table{
+  display: flex;
+  flex-wrap: wrap;
+}
 p{
   color: purple;
   text-align: center;
@@ -16,9 +22,68 @@ p{
   font-family: sans-serif;
   color: darkorange;
 }
-@media query {
+@media print {
+        .personal{
+          display: none;
+        }
+}
+@media (max-width: 999px) {
+  h1::before{
+    content: "Hi this page looks better in full screen";
+  }
+  body{
+    background: #ccb3ff;
+  }
+}
+@media (min-width: 1000px) {
+  body{
+    background: #91e9f2;
+  }
+  h1::before{
+    content: "Welcome to my Webpage thanks for vewing it on full screen";
+  }
+}
+.row > div{
+  padding: center;
+  background-color: teal;
+  border: 2px solid black;
+}
+button{
+  background: #91e9f2;
+}
+button:hover{
+  background: #c4a7fa;
+}
+.error, .incomplete, .done {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
 
+.done {
+  background-color: green;
 }
-body{
-  background: #b2d1d0;
+
+.incomplete {
+  background-color: orange;
 }
+
+.error {
+  background-color: red;
+}
+
+div {
+  font-size: 20px;
+}
+div h3 {
+  color: #643eab;
+}
+div ol {
+  background: #1a1602;
+  color: #ffd900;
+}
+
+/*# sourceMappingURL=style.css.map */

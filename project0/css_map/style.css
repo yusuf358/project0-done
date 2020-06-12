@@ -19,4 +19,15 @@
   background-color: red;
 }
 
+div {
+  font-size: 20px;
+}
+div h3 {
+  color: #643eab;
+}
+div ol {
+  background: #1a1602;
+  color: #ffd900;
+}
+
 /*# sourceMappingURL=style.css.map */
