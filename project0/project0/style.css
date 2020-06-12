@@ -1,0 +1,33 @@
+.error, .incomplete, .done {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.done {
+  background-color: green;
+}
+
+.incomplete {
+  background-color: orange;
+}
+
+.error {
+  background-color: red;
+}
+
+div {
+  font-size: 20px;
+}
+div h3 {
+  color: #643eab;
+}
+div ol {
+  background: #1a1602;
+  color: #ffd900;
+}
+
+/*# sourceMappingURL=style.css.map */
